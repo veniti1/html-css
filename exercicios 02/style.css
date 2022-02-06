@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    background-color: red;
+    width: 250px;
+    color: white;
+}
+
+div:hover {
+    color: red;
+}
